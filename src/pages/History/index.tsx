@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from "./styles";
+import { HistoryContainer, HistoryList, Status } from "./styles";
 
 export function History() {
     return <HistoryContainer>
@@ -20,31 +20,49 @@ export function History() {
                                 <td>Trarefa</td>
                                 <td>20minutos</td>
                                 <td>Há dois meses</td>
-                                <td>Concluido</td>
+                                <td><Status statusColor="green">Concluido</Status></td>
                             </tr>
                             <tr>
                                 <td>Trarefa</td>
                                 <td>20minutos</td>
                                 <td>Há dois meses</td>
-                                <td>Concluido</td>
+                                <td><Status statusColor="red">Interrompido</Status></td>
                             </tr>
                             <tr>
                                 <td>Trarefa</td>
                                 <td>20minutos</td>
                                 <td>Há dois meses</td>
-                                <td>Concluido</td>
+                                <td><Status statusColor="green">Concluido</Status></td>
                             </tr>
                             <tr>
                                 <td>Trarefa</td>
                                 <td>20minutos</td>
                                 <td>Há dois meses</td>
-                                <td>Concluido</td>
+                                <td><Status statusColor="green">Concluido</Status></td>
                             </tr>
                             <tr>
                                 <td>Trarefa</td>
                                 <td>20minutos</td>
                                 <td>Há dois meses</td>
-                                <td>Concluido</td>
+                                <td><Status statusColor="yellow">Em Andamento</Status></td>
+                            </tr>
+                            <tr>
+                                <td>Trarefa</td>
+                                <td>20minutos</td>
+                                <td>Há dois meses</td>
+                                <td><Status statusColor="green">Concluido</Status></td>
+                            </tr>
+                            <tr>
+                                <td>Trarefa</td>
+                                <td>20minutos</td>
+                                <td>Há dois meses</td>
+                                <td><Status statusColor="yellow">Em Andamento</Status></td>
+                            </tr>
+                            <tr>
+                                <td>Trarefa</td>
+                                <td>20minutos</td>
+                                <td>Há dois meses</td>
+                                <td><Status statusColor="red">Interrompido</Status></td>
                             </tr>
                         </tbody>
                     </table>
